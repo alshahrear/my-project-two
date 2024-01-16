@@ -49,6 +49,10 @@ nav ul a {
     color: #424247;
 }
 
+.dot-bar {
+    display: none;
+}
+
 .red-home {
     color: #FF5400;
 }
@@ -73,7 +77,7 @@ nav ul a {
 }
 
 .travel-blog {
-    text-align: center;
+    /* text-align: center; */
     margin-right: 300px;
     margin-bottom: 50px;
 }
@@ -137,7 +141,7 @@ nav ul a {
     color: #FFF;
     font-size: 15px;
     font-weight: 700;
-    
+
 }
 
 .content-mountain {
@@ -246,7 +250,7 @@ nav ul a {
     font-size: 40px;
     font-weight: 800;
     margin-left: 500px;
-    
+
 }
 
 .p-choose {
@@ -257,7 +261,7 @@ nav ul a {
     text-align: center;
 }
 
-.div-price{
+.div-price {
     margin-left: 70px;
 }
 
@@ -301,7 +305,7 @@ nav ul a {
     background: rgba(251, 181, 99, 0.05);
     padding: 20px;
     padding-right: 50px;
-    
+
 }
 
 .sec-service {
@@ -327,39 +331,46 @@ nav ul a {
     font-weight: 450;
     padding: 10px 5px;
 }
-.best-price-con{
+
+.best-price-con {
     padding-left: 5px;
 }
 
-.red-feature{
+.red-feature {
     font-size: 40px;
     font-weight: 700;
     margin-top: 50px;
     margin-left: 470px;
 }
-.red-feature span{
+
+.red-feature span {
     color: red;
 }
-.p-resort{
+
+.p-resort {
     text-align: center;
     font-size: 18px;
     padding-top: 15px;
     border-bottom: 30px;
 }
-.new-img{
+
+.new-img {
     display: flex;
     justify-content: space-between;
     margin-left: 70px;
     margin-right: 80px;
     margin-top: 30px;
-    
+
 }
-.new-one{
+
+.new-one {
     border-radius: 5%;
 }
-.new-two{
+
+.new-two {
     border-radius: 5%;
 }
+
 .Price-container {
     margin-left: 300px;
     margin-right: 450px;
@@ -382,7 +393,7 @@ nav ul a {
     font-weight: 400;
     margin-top: 20px;
     margin-bottom: 20px;
-    
+
 }
 
 .Perfect-container li {
@@ -586,9 +597,310 @@ nav ul a {
     padding-top: 30px;
 }
 
- /* Please note : website create korar por github a code push hoccilo na , problem hocchilo, support a join howar por je vaiya guide krsilo, uni 1 hour try korew solve korte pare ni. tokhon uni bolse je sob code copy kre new repository create kore code paste kore submit krte. so ami ty krlm. ete 3 ta git push same time a dekhaise. thank you. */
-
 @media screen and (max-width: 600px) {
-    
-    /* I am very disappointed, except for Responsive to submit. Responsive practice was lacking. Hope it gets resolved soon. */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+    body {
+        font-family: 'Mulish', sans-serif;
+    }
+
+    .list {
+        display: none;
+    }
+
+    .head {
+        margin-left: 70px;
+    }
+
+    .logo {
+        width: 28.724px;
+        height: 33.516px;
+
+    }
+
+    .happy-tra {
+        font-size: 21.543px;
+        font-weight: 800;
+    }
+
+    .dot-bar {
+        display: flex;
+        margin-left: 200px;
+    }
+
+    .travel-info {
+        width: 450px;
+        height: 500px;
+
+    }
+
+    .content-travel h1 {
+        font-size: 25px;
+        margin-top: 10px;
+        margin-left: 70px;
+        padding: 20px;
+    }
+
+    .content-travel {
+        margin-left: 40px;
+    }
+
+    .travel-blog {
+        display: none;
+
+    }
+
+    .input {
+        display: grid;
+        width: 300px;
+        height: 300px;
+        margin-left: 70px;
+        margin-right: 300px;
+        padding-top: 10px;
+        padding-right: 10px;
+
+    }
+
+    .now-find {
+        width: 280px;
+    }
+
+    .Popular {
+        font-size: 20px;
+    }
+
+    .text-mountain .popular-section ul li .down-content {
+        font-size: 14px;
+    }
+
+    .text-mountain {
+        width: 515px;
+    }
+
+    .popular-section {
+        width: 550px;
+    }
+
+    .content-mountain {
+        display: grid;
+    }
+
+    .btn-read {
+        font-size: 20px;
+        margin-bottom: 20px;
+        padding: 15px 30px;
+        border-radius: 10px;
+    }
+
+    .img-mountain {
+        width: 450px;
+    }
+
+    .h-Destination {
+        font-size: 30px;
+    }
+
+    .p-Destination {
+        width: 450px;
+        height: 50px;
+        margin-left: 70px;
+        line-height: 25px;
+    }
+
+    .mal-ind {
+        display: grid;
+    }
+
+    #rec-five {
+        width: 450px;
+        height: 250px;
+
+    }
+
+    #rec-eight {
+        width: 450px;
+        height: 250px;
+
+    }
+
+    .sri-north-kash {
+        display: grid;
+    }
+
+    #rec-six {
+        width: 450px;
+        height: 250px;
+    }
+
+    #rec-seven {
+        width: 450px;
+        height: 250px;
+    }
+
+    #rec-nine {
+        width: 450px;
+        height: 250px;
+    }
+
+    .ban-img {
+        display: grid;
+    }
+
+    #rec-elevent {
+        width: 450px;
+        height: 250px;
+    }
+
+    #rec-ten {
+        width: 450px;
+        height: 250px;
+    }
+
+    .h-choose {
+        font-size: 25px;
+        margin-left: 200px;
+    }
+
+    .p-choose {
+        margin-left: 70px;
+        margin-right: 80px;
+        line-height: 20px;
+    }
+
+    .flex-container {
+        display: grid;
+    }
+
+    .sec-hotel {
+        width: 450px;
+    }
+
+    .sec-service {
+        width: 450px;
+        margin-left: 70px;
+    }
+
+    .Price-container {
+        width: 450px;
+        margin-left: 0px;
+    }
+
+    .red-feature {
+        font-size: 40px;
+        margin-left: 120px;
+    }
+
+    .p-resort {
+        font-size: 15px;
+        margin-left: 70px;
+        margin-right: 80px;
+        line-height: 25px;
+    }
+
+    .new-img {
+        display: grid;
+    }
+
+    .new-one {
+        width: 450px;
+        height: 250px;
+    }
+
+    .new-two {
+        width: 450px;
+        height: 250px;
+    }
+
+    .bd-mountain {
+        display: grid;
+        margin-right: 90px;
+    }
+
+    .btn-perfect {
+        padding: 10px 25px;
+    }
+
+    .grp-img {
+        margin-left: 70px;
+        width: 450px;
+        height: 250px;
+    }
+
+    .watch {
+        margin-left: 45px;
+        margin-top: -70px;
+        padding-bottom: 100px;
+    }
+
+    .save-mountain {
+        display: grid;
+    }
+
+    .tips-container {
+        width: 450px;
+        height: 300px;
+        padding-left: 70px;
+    }
+
+    .daily {
+        padding-top: 10px;
+
+    }
+
+    .name-email {
+        padding-top: 15px;
+    }
+
+    .save-up {
+        margin-left: 70px;
+        margin-right: 300px;
+
+        margin-bottom: 200px;
+
+
+    }
+
+    .img-rec-container {
+        margin-left: 0px;
+
+
+    }
+
+    .img-rec {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        margin-right: 100px;
+        width: 450px;
+    }
+
+    .travel-save {
+        margin-left: 320px;
+        margin-top: 5px;
+    }
+
+    .foot-travel {
+        margin-left: 150px;
+    }
+
+    .p-foot {
+        margin-left: 70px;
+        margin-right: 70px;
+        line-height: 25px;
+    }
+
+    .img-foot {
+        margin-left: 130px;
+        padding-left: 80px;
+        margin-right: 100px;
+    }
+
+    .rights-foot {
+        margin-left: 230px;
+    }
 }
