@@ -1,0 +1,592 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 80px;
+    align-items: center;
+}
+
+.red {
+    color: #FF5400;
+}
+
+.happy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.list {
+    display: flex;
+
+}
+
+.a-list {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #424247;
+}
+
+.red-home {
+    color: #FF5400;
+}
+
+.travel-info {
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    margin: 0 70px;
+    width: 1200px;
+    height: 520px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80))
+}
+
+.content-travel h1 {
+    margin-bottom: 30px;
+    margin-left: 300px;
+    padding-top: 150px;
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.travel-blog {
+    text-align: center;
+    margin-right: 300px;
+    margin-bottom: 50px;
+}
+
+.content-travel p {
+    margin-left: 280px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.input {
+    display: flex;
+    margin-left: 300px;
+    margin-right: 340px;
+    padding: 15px;
+    border: 15px;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+    gap: 30px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.where {
+    border: 50px;
+    background-color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 10px;
+    border-radius: 5px;
+    padding: 10px 10px;
+
+
+}
+
+.when {
+    border: 50px;
+    background-color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: rgba(19, 19, 24, 0.50);
+}
+
+.select-type {
+    border: 50px;
+    background-color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: rgba(19, 19, 24, 0.50);
+}
+
+.now-find {
+    padding: 10px 18px;
+    background-color: #FF5400;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+
+.content-mountain {
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.Popular {
+    color: #131318;
+    margin-left: 70px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.text-mountain {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    width: 577px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.content-mountain ul li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 95px;
+    margin-bottom: 10px;
+}
+
+.down-content {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.btn-read {
+    border: 10px 20px;
+    border-radius: 5px;
+    background: #FF5400;
+    color: #FFF;
+    padding: 5px 15px;
+    font-size: 15px;
+    font-weight: 800;
+    margin-left: 70px;
+}
+
+.img-mountain {
+    border-radius: 16px;
+    width: 550px;
+    height: 390px;
+    margin-left: 70px;
+    margin-right: 80px;
+
+}
+
+.h-Destination {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.p-Destination {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.mal-ind {
+    display: flex;
+    gap: 50px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.sri-north-kash {
+    display: flex;
+    gap: 35px;
+    margin-top: 15px;
+    margin-left: 70px;
+    margin-right: 100px;
+}
+
+.ban-img {
+    display: flex;
+    gap: 50px;
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+.choose {
+    margin-top: 50px;
+}
+
+.h-choose {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 500px;
+    
+}
+
+.p-choose {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.div-price{
+    margin-left: 70px;
+}
+
+.Handpicked {
+    color: #131318;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.p-hotel {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.service {
+    color: #131318;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.p-service {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.sec-hotel {
+    margin-left: 70px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 20px;
+    padding-right: 50px;
+    
+}
+
+.sec-service {
+    margin-right: 80px;
+    margin-left: 400px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 20px;
+    padding-right: 50px;
+}
+
+.h-Price {
+    color: #131318;
+    font-size: 18px;
+    font-weight: 800;
+    padding-left: 5px;
+}
+
+.p-Price {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 450;
+    padding: 10px 5px;
+}
+.best-price-con{
+    padding-left: 5px;
+}
+
+.red-feature{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 470px;
+}
+.red-feature span{
+    color: red;
+}
+.p-resort{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 15px;
+    border-bottom: 30px;
+}
+.new-img{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 80px;
+    margin-top: 30px;
+    
+}
+.new-one{
+    border-radius: 5%;
+}
+.new-two{
+    border-radius: 5%;
+}
+.Price-container {
+    margin-left: 300px;
+    margin-right: 450px;
+    margin-top: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 20px;
+}
+
+.h-Perfect {
+    color: #131318;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.p-Perfect {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.Perfect-container li {
+    margin-left: 40px;
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btn-perfect {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    margin-top: 30px;
+    padding: 5px 10px;
+}
+
+.Perfect-container {
+    margin-left: 70px;
+
+}
+
+.bd-mountain {
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.grp-img {
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    margin-right: 100px;
+}
+
+.watch {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    padding-top: 120px;
+    padding-left: 40px;
+}
+
+.tips-container {
+    padding: 15px;
+    margin-left: 70px;
+}
+
+.new-container {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.daily {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 2px solid #1313181A;
+    padding-bottom: 15px;
+}
+
+.name {
+    color: rgba(19, 19, 24, 0.30);
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 10px;
+    padding-right: 90px;
+
+}
+
+.email {
+    margin-top: 10px;
+    color: rgba(19, 19, 24, 0.30);
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 10px;
+    padding-right: 90px;
+}
+
+.btn-sub {
+    margin-top: 20px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.save-mountain {
+    display: flex;
+    margin-top: 50px;
+}
+
+.tips-container {
+
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.save-up {
+    margin-left: 200px;
+}
+
+.img-rec {
+    width: 500px;
+    height: 270px;
+    position: absolute;
+}
+
+.img-rec-container {
+    margin-top: 5px;
+    margin-left: 190px;
+    margin-right: 80px;
+}
+
+.travel-save {
+
+    background-repeat: no-repeat;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 5px 30px;
+    text-align: center;
+    margin-top: -78px;
+    position: relative;
+    transform: rotate(-19.628deg);
+    margin-left: 1080px;
+}
+
+.tra-container {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.save-to {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.footer-container {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.foot-travel {
+    display: flex;
+    margin-left: 500px;
+    padding-top: 30px;
+}
+
+.red-foot {
+    color: #FF5400;
+    font-size: 28px font-weight: 800;
+}
+
+.happy-foot {
+    color: #131318;
+    font-size: 28px;
+    font-weight: 800;
+    margin-left: 30px;
+}
+
+.p-foot {
+    margin-left: 50px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.img-foot {
+    margin-left: 360px;
+    border-bottom: 2px solid rgba(19, 19, 24, 0.10);
+    margin-right: 260px;
+    padding-left: 240px;
+    padding-bottom: 20px;
+}
+
+.rights-foot {
+    margin-left: 600px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    
+    /* I am very disappointed, except for Responsive to submit. Responsive practice was lacking. Hope it gets resolved soon. */
+}
