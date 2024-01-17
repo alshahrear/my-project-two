@@ -77,7 +77,7 @@ nav ul a {
 }
 
 .travel-blog {
-    /* text-align: center; */
+    text-align: center;
     margin-right: 300px;
     margin-bottom: 50px;
 }
@@ -179,7 +179,9 @@ nav ul a {
     font-size: 16px;
     font-weight: 400;
     margin-left: 70px;
+    margin-bottom: -20px;
     margin-bottom: 20px;
+    
 }
 
 .btn-read {
@@ -196,7 +198,7 @@ nav ul a {
 .img-mountain {
     border-radius: 16px;
     width: 550px;
-    height: 390px;
+    height: 365px;
     margin-left: 70px;
     margin-right: 80px;
 
@@ -221,24 +223,43 @@ nav ul a {
 
 .mal-ind {
     display: flex;
-    gap: 50px;
+    gap: 30px;
     margin-left: 70px;
     margin-top: 50px;
+    margin-right: 150px;
 }
-
+#rec-five{
+    width: 600px;
+    height: 300px;
+}
+#rec-eight{
+    width: 555px;
+    height: 300px;
+    
+    
+}
 .sri-north-kash {
     display: flex;
-    gap: 35px;
+    gap: 30px;
     margin-top: 15px;
     margin-left: 70px;
     margin-right: 100px;
 }
+#rec-nine{
+    width: 280px;
+    height: 285px;
+    margin-right: 50px;
+}
 
 .ban-img {
     display: flex;
-    gap: 50px;
+    gap: 30px;
     margin-top: 15px;
     margin-left: 70px;
+}
+#rec-elevent{
+    width: 485px;
+    height: 300px;
 }
 
 .choose {
@@ -296,9 +317,12 @@ nav ul a {
 .flex-container {
     display: flex;
     margin-top: 50px;
+    gap: 30px;
 }
 
 .sec-hotel {
+    width: 600px;
+    height: 230px;
     margin-left: 70px;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
@@ -310,7 +334,8 @@ nav ul a {
 
 .sec-service {
     margin-right: 80px;
-    margin-left: 400px;
+    width: 600px;
+    height: 230px;
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
@@ -323,6 +348,7 @@ nav ul a {
     font-size: 18px;
     font-weight: 800;
     padding-left: 5px;
+    padding-top: 10px;
 }
 
 .p-Price {
@@ -373,12 +399,14 @@ nav ul a {
 
 .Price-container {
     margin-left: 300px;
-    margin-right: 450px;
+    margin-right: 430px;
     margin-top: 30px;
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     padding: 20px;
+    width: 600px;
+    height: 200px;
 }
 
 .h-Perfect {
@@ -450,6 +478,7 @@ nav ul a {
     color: #131318;
     font-size: 24px;
     font-weight: 800;
+    margin-bottom: 10px;
 }
 
 .daily {
@@ -467,6 +496,7 @@ nav ul a {
     background: rgba(19, 19, 24, 0.05);
     padding: 10px;
     padding-right: 90px;
+    margin-top: 15px;
 
 }
 
@@ -496,28 +526,23 @@ nav ul a {
 .save-mountain {
     display: flex;
     margin-top: 50px;
+    
 }
 
 .tips-container {
-
+    width: 400px;
+    height: 320px;
     border-radius: 16px;
     border: 1px solid #FF5400;
-}
-
-.save-up {
-    margin-left: 200px;
+    padding-left: 50px;
+    padding-top: 20px;
 }
 
 .img-rec {
-    width: 500px;
-    height: 270px;
+    width: 760px;
+    height: 320px;
     position: absolute;
-}
-
-.img-rec-container {
-    margin-top: 5px;
-    margin-left: 190px;
-    margin-right: 80px;
+    margin-left: 50px;
 }
 
 .travel-save {
@@ -529,7 +554,7 @@ nav ul a {
     background: #FF5400;
     padding: 5px 30px;
     text-align: center;
-    margin-top: -78px;
+    margin-top: -85px;
     position: relative;
     transform: rotate(-19.628deg);
     margin-left: 1080px;
@@ -637,23 +662,30 @@ nav ul a {
     .travel-info {
         width: 450px;
         height: 500px;
-
+        padding: 0;
     }
 
     .content-travel h1 {
         font-size: 25px;
-        margin-top: 10px;
+        margin-top: -10px;
+        padding-bottom: 0px;
         margin-left: 70px;
         padding: 20px;
     }
 
     .content-travel {
-        margin-left: 40px;
+        margin-left: 0;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: -20px;
     }
 
-    .travel-blog {
-        display: none;
-
+    .content-travel p {
+        margin: 0;
+        margin-left: 50px;
+        margin-right: 20px;
+        padding-top: -25px;
+        padding-bottom: 15px;
     }
 
     .input {
@@ -662,8 +694,9 @@ nav ul a {
         height: 300px;
         margin-left: 70px;
         margin-right: 300px;
-        padding-top: 10px;
+        padding-top: 15px;
         padding-right: 10px;
+        padding-bottom: 15px;
 
     }
 
@@ -715,51 +748,59 @@ nav ul a {
 
     .mal-ind {
         display: grid;
+        margin-bottom: 20px;
     }
 
     #rec-five {
         width: 450px;
         height: 250px;
-
+        
     }
 
     #rec-eight {
         width: 450px;
         height: 250px;
-
+        margin-top: -10px;
     }
 
     .sri-north-kash {
         display: grid;
+        margin-bottom: 20px;
     }
 
     #rec-six {
         width: 450px;
         height: 250px;
+        
     }
 
     #rec-seven {
         width: 450px;
         height: 250px;
+        margin-top: -10px;
     }
 
     #rec-nine {
         width: 450px;
         height: 250px;
+        margin-top: -10px;
     }
 
     .ban-img {
         display: grid;
+        margin-bottom: 20px;
     }
 
     #rec-elevent {
         width: 450px;
         height: 250px;
+        
     }
 
     #rec-ten {
         width: 450px;
         height: 250px;
+        margin-top: -10px;
     }
 
     .h-choose {
@@ -784,11 +825,14 @@ nav ul a {
     .sec-service {
         width: 450px;
         margin-left: 70px;
+        margin-top: 10px;
+        margin-top: -10px;
     }
 
     .Price-container {
         width: 450px;
         margin-left: 0px;
+        margin-top: 20px;
     }
 
     .red-feature {
@@ -815,6 +859,7 @@ nav ul a {
     .new-two {
         width: 450px;
         height: 250px;
+        margin-top: 20px;
     }
 
     .bd-mountain {
@@ -840,12 +885,14 @@ nav ul a {
 
     .save-mountain {
         display: grid;
+        
     }
 
     .tips-container {
         width: 450px;
-        height: 300px;
+        height: 330px;
         padding-left: 70px;
+        
     }
 
     .daily {
@@ -855,20 +902,21 @@ nav ul a {
 
     .name-email {
         padding-top: 15px;
+        
     }
-
+    
+    .btn-sub{
+        margin-bottom: 15px;
+    }
     .save-up {
-        margin-left: 70px;
+        margin-left: 20px;
         margin-right: 300px;
-
         margin-bottom: 200px;
-
 
     }
 
     .img-rec-container {
         margin-left: 0px;
-
 
     }
 
@@ -881,7 +929,7 @@ nav ul a {
 
     .travel-save {
         margin-left: 320px;
-        margin-top: 5px;
+        margin-top: 55px;
     }
 
     .foot-travel {
