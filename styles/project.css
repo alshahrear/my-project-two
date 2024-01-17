@@ -58,13 +58,13 @@ nav ul a {
 }
 
 .travel-info {
-    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
-    background-repeat: no-repeat;
+    
     margin: 0 70px;
     width: 1200px;
     height: 520px;
     border-radius: 16px;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80))
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
 }
 
 .content-travel h1 {
@@ -666,7 +666,7 @@ nav ul a {
     }
 
     .content-travel h1 {
-        font-size: 25px;
+        font-size: 30px;
         margin-top: -10px;
         padding-bottom: 0px;
         margin-left: 70px;
